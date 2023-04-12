@@ -32,7 +32,7 @@ header h1{
     justify-content: space-around;
 }
 
-textarea {
+textarea, .saida-convertida {
     resize: none;
     box-shadow: 0 0 0 0;
     border: 0 none;
@@ -41,6 +41,7 @@ textarea {
     background: rgba(242, 237, 237, 0.67);
     border-radius: 15px;
     box-shadow: 3px 3px 5px rgba(13, 13, 13, 0.656);
+    text-align: justify;
 }
 
 .entrada-texto {
@@ -49,6 +50,7 @@ textarea {
     flex-direction:  column;
     text-align: center;
     padding: 20px;
+
 }
 
 .entrada-texto p {
@@ -72,10 +74,11 @@ textarea {
     transition: 0.5s all;
     font-size: 1em;
     letter-spacing: 1px;
+    font-weight: bold;
 }
 
 .btn-criptografar {
-    background: rgb(176, 175, 175);
+    background: rgb(244, 244, 244);
     box-shadow: 3px 3px 4px rgba(241, 239, 239, 0.279);
 }
 
@@ -86,7 +89,7 @@ textarea {
 }
 
 .btn-criptografar:hover {
-    background: rgba(242, 237, 237, 0.92);
+    background: rgba(147, 147, 147, 0.92);
 }
 
 .btn-descriptografar:hover {
@@ -102,11 +105,33 @@ textarea {
     align-items: center;
     text-align: center;
     padding: 20px;
+    /* background: rgba(71, 70, 70, 0.67);
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px rgba(13, 13, 13, 0.656); */
 }
 
 .saida-texto h2 {
     font-weight: bold;
     line-height: 30px;
+}
+
+.btn-copiar {
+    margin-top: 24px;
+    width: 200px;
+    padding: 10px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    transition: 0.5s all;
+    font-size: 1em;
+    letter-spacing: 1px;
+    background: rgb(17, 83, 149);
+    box-shadow: 3px 3px 4px rgba(48, 47, 47, 0.279);
+    font-weight: bold;
+}
+
+.btn-copiar:hover {
+    background: rgba(42, 132, 222, 0.822);
 }
 
 .saida-texto img {
