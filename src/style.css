@@ -32,7 +32,7 @@ header h1{
     justify-content: space-around;
 }
 
-textarea, .saida-convertida {
+textarea {
     resize: none;
     box-shadow: 0 0 0 0;
     border: 0 none;
@@ -42,6 +42,22 @@ textarea, .saida-convertida {
     border-radius: 15px;
     box-shadow: 3px 3px 5px rgba(13, 13, 13, 0.656);
     text-align: justify;
+}
+
+.saida-convertida{
+    width: 450px;
+    height: 350px;
+    resize: none;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    padding: 20px;
+    background: rgba(26, 25, 25, 0.992);
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px rgba(13, 13, 13, 0.656);
+    text-align: justify;
+    word-wrap:break-word;
+    color: rgb(216, 213, 213);
 }
 
 .entrada-texto {
@@ -74,7 +90,6 @@ textarea, .saida-convertida {
     transition: 0.5s all;
     font-size: 1em;
     letter-spacing: 1px;
-    font-weight: bold;
 }
 
 .btn-criptografar {
@@ -89,7 +104,7 @@ textarea, .saida-convertida {
 }
 
 .btn-criptografar:hover {
-    background: rgba(147, 147, 147, 0.92);
+    background: rgba(198, 195, 195, 0.876);
 }
 
 .btn-descriptografar:hover {
@@ -113,6 +128,7 @@ textarea, .saida-convertida {
 .saida-texto h2 {
     font-weight: bold;
     line-height: 30px;
+    font-family: 'Roboto mono', sans-serif;
 }
 
 .btn-copiar {
@@ -125,13 +141,14 @@ textarea, .saida-convertida {
     transition: 0.5s all;
     font-size: 1em;
     letter-spacing: 1px;
-    background: rgb(17, 83, 149);
+    color: rgb(216, 213, 213);
+    background: rgb(12, 89, 165);
     box-shadow: 3px 3px 4px rgba(48, 47, 47, 0.279);
     font-weight: bold;
 }
 
 .btn-copiar:hover {
-    background: rgba(42, 132, 222, 0.822);
+    background: rgba(10, 112, 214, 0.953);
 }
 
 .saida-texto img {
