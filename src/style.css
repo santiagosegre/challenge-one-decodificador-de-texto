@@ -3,6 +3,7 @@ body {
     font-size: 1.1em;
     background: linear-gradient(45deg, rgb(33, 33, 123), rgb(216, 213, 213));
     height: 100vh;
+    overflow: hidden;
   }
   
 
@@ -46,7 +47,7 @@ textarea {
 
 .saida-convertida{
     width: 450px;
-    height: 350px;
+    height: 339px;
     resize: none;
     box-shadow: 0 0 0 0;
     border: 0 none;
@@ -55,7 +56,7 @@ textarea {
     background: rgba(26, 25, 25, 0.992);
     border-radius: 15px;
     box-shadow: 3px 3px 5px rgba(13, 13, 13, 0.656);
-    text-align: justify;
+    text-align: initial;
     word-wrap:break-word;
     color: rgb(216, 213, 213);
 }
@@ -161,6 +162,10 @@ textarea {
     font-weight: 400;
 }
 
+.caixa-desaparecer p {
+    line-height: 25px;
+}
+
 /* Footer */
 
 footer {
@@ -180,3 +185,9 @@ footer a:hover {
     color: var(--cor1);
     text-decoration: underline;
 }
+
+.hidden {
+    opacity: 0;
+    margin: -235px;
+    z-index: -1;
+  }
