@@ -33,7 +33,7 @@ header h1{
     justify-content: space-around;
 }
 
-textarea {
+#mensagem {
     resize: none;
     box-shadow: 0 0 0 0;
     border: 0 none;
@@ -43,22 +43,6 @@ textarea {
     border-radius: 15px;
     box-shadow: 3px 3px 5px rgba(13, 13, 13, 0.656);
     text-align: justify;
-}
-
-.saida-convertida{
-    width: 450px;
-    height: 339px;
-    resize: none;
-    box-shadow: 0 0 0 0;
-    border: 0 none;
-    outline: 0;
-    padding: 20px;
-    background: rgba(26, 25, 25, 0.992);
-    border-radius: 15px;
-    box-shadow: 3px 3px 5px rgba(13, 13, 13, 0.656);
-    text-align: initial;
-    word-wrap:break-word;
-    color: rgb(216, 213, 213);
 }
 
 .entrada-texto {
@@ -121,20 +105,31 @@ textarea {
     align-items: center;
     text-align: center;
     padding: 20px;
-    /* background: rgba(71, 70, 70, 0.67);
-    border-radius: 15px;
-    box-shadow: 3px 3px 5px rgba(13, 13, 13, 0.656); */
-}
-
-.saida-texto h2 {
     font-weight: bold;
     line-height: 30px;
     font-family: 'Roboto mono', sans-serif;
 }
 
+#text-out{
+    width: 450px;
+    height: 339px;
+    resize: none;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    padding: 20px;
+    background: rgba(26, 25, 25, 0.992);
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px rgba(13, 13, 13, 0.656);
+    text-align: initial;
+    word-wrap:break-word;
+    color: rgb(216, 213, 213);
+    font-size: 1.2em;
+}
+
 .btn-copiar {
     margin-top: 24px;
-    width: 200px;
+    width: 220px;
     padding: 10px 40px;
     border-radius: 10px;
     cursor: pointer;
